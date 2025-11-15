@@ -9,7 +9,7 @@ function exibirTextoNtela(tag, texto){
 
 function exibirMesagemInicial(){
     exibirTextoNtela('h1', 'Jogo do número Secreto.');
-    exibirTextoNtela('p', 'Escolha um número entre 1 e 100.');
+    exibirTextoNtela('p', ' Escolha um número entre 1 e 50.');
 }
 exibirMesagemInicial();
 function verificarChute() {
@@ -33,7 +33,7 @@ function verificarChute() {
     }
 
 function gerarNumeroAleatorio() {
-     let numeroEscolhido = parseInt(Math.random() * 100 + 1);
+     let numeroEscolhido = parseInt(Math.random() * 50 + 1);
      let quantidadedeNumerosEscolhidos = listadeNumerosSorteados.length;
      if (quantidadedeNumerosEscolhidos == 10 ){
         listadeNumerosSorteados = [];
