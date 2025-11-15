@@ -9,7 +9,7 @@ function exibirTextoNtela(tag, texto){
 
 function exibirMesagemInicial(){
     exibirTextoNtela('h1', 'Jogo do número Secreto.');
-    exibirTextoNtela('p', 'Escolha um número entre 1 e 10.');
+    exibirTextoNtela('p', 'Escolha um número entre 1 e 100.');
 }
 exibirMesagemInicial();
 function verificarChute() {
