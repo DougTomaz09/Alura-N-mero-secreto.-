@@ -33,7 +33,7 @@ function verificarChute() {
     }
 
 function gerarNumeroAleatorio() {
-     let numeroEscolhido = parseInt(Math.random() * 10 + 1);
+     let numeroEscolhido = parseInt(Math.random() * 100 + 1);
      let quantidadedeNumerosEscolhidos = listadeNumerosSorteados.length;
      if (quantidadedeNumerosEscolhidos == 10 ){
         listadeNumerosSorteados = [];
